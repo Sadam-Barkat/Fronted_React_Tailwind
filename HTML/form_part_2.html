@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Part 2</title>
+</head>
+<body>
+    <fieldset>
+        <legend>HTML 5 Form</legend>
+        <form method="" action="">
+            <label>Count</label><br>
+            <input type="number" min="1" max="10"/><br>   
+            
+            <label>Name</label><br>
+            <input type="text" minlength="5" maxlength="15" required/><br>
+
+             
+            <label>Courses</label><br>
+            <input type="text" list="course_di"/>
+            <datalist id="course_di">
+                <option value="Python">
+                <option value="Java">
+                <option value="C++">
+                <option value="Php">
+            </datalist>
+
+            <input type="submit">
+            
+        </form>
+    </fieldset>    
+</body>
+</html>

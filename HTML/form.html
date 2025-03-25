@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Enquiry Form</legend>
+        <form method="" action="">
+            <label>Gender</label><br>
+            <input type="radio" value="male" name="gender"/>Male
+            <input type="radio" value="female" name="gender"/>Female<br>
+
+            <label>Course</label><br>
+            <input type="checkbox" value="Python" />Python
+            <input type="checkbox" value="ja" />Java
+            <input type="checkbox" value="C++"/>C++
+            <input type="checkbox" value="C#"/>C#
+
+            <label>Name</label><br>
+            <input type="text" pattern="[a-zA-Z]{3,40}" placeholder="Enter The Name" name="name"/><br>
+
+            <label>Email</label><br>
+            <input type="email" placeholder="Enter The Email" name="email"/><br>
+
+            <label>Phone</label><br>
+            <input type="tel" pattern="[0-9]{11}" placeholder="Enter The Email" name="email"/><br>
+
+            <label>Message</label><br>
+            <textarea></textarea><br>
+
+            <label>Upload</label><br>
+            <input type="file" accept=".pdf" /><br/>
+
+            <label>Select</label><br>
+            <select>
+                <option>----Select Country----</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="india">India</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="china">China</option>
+            </select><br/>
+            
+            <label>Courses</label><br/>
+            <select>
+                <optgroup label="Frontend">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JS</option>
+                </optgroup>
+                <optgroup label="Backend">
+                    <option>JANGO</option>
+                    <option>PYTHON</option>
+                    <option>MYSQL</option>
+                </optgroup>
+            </select>
+
+            <button type="Submit">Submit</button>
+        </form>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,98 @@
+.main{
+    width: 1000px;
+    height: 540px;
+    background-color: red;
+    font-family: arial;
+    border: 4px solid black;
+    margin: 4px 5px;
+}
+.row1{
+    width: 1000px;
+    height: 70px;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: purple;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+.row2{
+    width: 1000px;
+    height: 40px;
+    background-color: yellow;
+}
+.row2c{
+    width: 186px;
+    height: 26px;
+    float: left;
+    background-color: yellowgreen;
+    border: 2px solid red;
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    margin-right: 5px;
+
+}
+.row3{
+    width: 1000px;
+    height: 200px;
+    background-color: yellow;
+}
+.row3left{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color:darkmagenta;
+    margin: 0px auto;
+}
+.row3leftr{
+    width: 250px;
+    height: 40px;
+    background-color: lightpink;
+}
+.rowright{
+    width: 750px;
+    height: 200px;
+    float: left;
+    background-color: gray;
+}
+.row4{
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    background-color: yellow;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.row5{
+    width: 1000px;
+    height: 80px;
+    background-color: black;
+}
+.row5c{
+    width: 333px;
+    height: 50px;
+    color: white;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+}
+.row6 {
+    width: 1000px;
+    height: 40px;
+    background-color: #222;
+    text-align: center; /* Center inline-block elements */
+    line-height: 40px; /* Aligns text vertically */
+    margin: 0 auto; /* Centers div horizontally */
+}
+
+.row6c {
+    display: inline-block; /* Keeps subjects in one line */
+    color: white;
+    font-weight: bold;
+    font-weight: bold;
+    padding: 0 10px; /* Space between subjects */
+}
